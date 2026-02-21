@@ -24,7 +24,7 @@
 
 I'm **Raghavendra** — born in UP, raised across India through Kendriya Vidyalayas, shaped by the **Indian Air Force**, and now channeling **17+ years of discipline, HR mastery, and operational precision** into the world of technology and data.
 
-I saw my first computer in **2009** — and it ignited a curiosity that never stopped burning. What started as fascination became a career pivot: from managing 750+ officers' records to **building the automated systems that do it**.
+I saw my first computer in **1999** — and it ignited a curiosity that never stopped burning. What started as fascination became a career pivot: from managing 750+ officers' records to **building the automated systems that do it**.
 
 ---
 
