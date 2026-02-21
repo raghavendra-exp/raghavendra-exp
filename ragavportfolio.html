@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raghavendra — IAF Veteran & Technology Builder</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Space+Mono:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #E8C96A;
+    --gold-dim: #8B6914;
+    --navy: #0A0F1E;
+    --navy-mid: #111827;
+    --navy-light: #1E2A3A;
+    --steel: #2C3E55;
+    --white: #F5F0E8;
+    --white-dim: #B8B0A0;
+    --accent-red: #8B1A1A;
+    --accent-blue: #1A3A5C;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background-color: var(--navy);
+    color: var(--white);
+    font-family: 'Crimson Pro', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    overflow-x: hidden;
+  }
+
+  /* ─── GRAIN OVERLAY ─── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1000;
+    opacity: 0.4;
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+    background: radial-gradient(ellipse at 50% 40%, #1A2840 0%, var(--navy) 70%);
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '✈';
+    position: absolute;
+    font-size: 600px;
+    color: rgba(201, 168, 76, 0.03);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    animation: slowRotate 60s linear infinite;
+  }
+
+  @keyframes slowRotate {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+
+  .hero-badge {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--gold);
+    text-transform: uppercase;
+    border: 1px solid var(--gold-dim);
+    padding: 8px 20px;
+    margin-bottom: 40px;
+    animation: fadeInDown 1s ease both;
+  }
+
+  .hero-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(56px, 10vw, 120px);
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -2px;
+    color: var(--white);
+    animation: fadeInUp 1s ease 0.2s both;
+  }
+
+  .hero-name span {
+    color: var(--gold);
+    display: block;
+    font-style: italic;
+  }
+
+  .hero-tagline {
+    font-family: 'Crimson Pro', serif;
+    font-size: clamp(18px, 3vw, 26px);
+    font-style: italic;
+    color: var(--white-dim);
+    margin-top: 24px;
+    max-width: 600px;
+    animation: fadeInUp 1s ease 0.4s both;
+  }
+
+  .hero-divider {
+    width: 120px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin: 40px auto;
+    animation: fadeIn 1s ease 0.6s both;
+  }
+
+  .hero-quote {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(20px, 3.5vw, 32px);
+    font-style: italic;
+    color: var(--white);
+    max-width: 800px;
+    line-height: 1.5;
+    animation: fadeInUp 1s ease 0.8s both;
+  }
+
+  .hero-quote em {
+    color: var(--gold);
+    font-style: normal;
+  }
+
+  .scroll-hint {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--gold-dim);
+    animation: pulse 2s ease infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+  }
+
+  /* ─── SECTIONS ─── */
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 30px;
+  }
+
+  .section-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--gold-dim), transparent);
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(32px, 6vw, 56px);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 32px;
+    color: var(--white);
+  }
+
+  h2 em {
+    color: var(--gold);
+    font-style: italic;
+  }
+
+  p {
+    color: var(--white-dim);
+    margin-bottom: 20px;
+    font-size: clamp(17px, 2vw, 20px);
+  }
+
+  p strong {
+    color: var(--white);
+    font-weight: 600;
+  }
+
+  .large-text {
+    font-size: clamp(20px, 3vw, 28px);
+    font-style: italic;
+    color: var(--white);
+    line-height: 1.5;
+  }
+
+  /* ─── SPARK SECTION ─── */
+  .spark-section {
+    background: linear-gradient(135deg, var(--navy-mid) 0%, var(--navy-light) 100%);
+    border-left: 3px solid var(--gold);
+    padding: 60px 50px;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .spark-section section {
+    padding: 0;
+  }
+
+  /* ─── STATS GRID ─── */
+  .stats-section {
+    background: var(--navy-mid);
+    padding: 80px 30px;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2px;
+    margin-top: 40px;
+  }
+
+  .stat-card {
+    background: var(--navy-light);
+    padding: 32px 28px;
+    border-top: 2px solid transparent;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+    cursor: default;
+  }
+
+  .stat-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-4px);
+  }
+
+  .stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .stat-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--white-dim);
+    text-transform: uppercase;
+  }
+
+  .stat-sub {
+    font-size: 14px;
+    color: var(--white-dim);
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* ─── TIMELINE ─── */
+  .timeline {
+    position: relative;
+    padding-left: 40px;
+    margin-top: 40px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(180deg, var(--gold), var(--gold-dim), transparent);
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 56px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .timeline-item.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .timeline-dot {
+    position: absolute;
+    left: -44px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background: var(--gold);
+    border-radius: 50%;
+    border: 2px solid var(--navy);
+    box-shadow: 0 0 0 4px rgba(201, 168, 76, 0.2);
+  }
+
+  .timeline-location {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .timeline-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 12px;
+  }
+
+  .timeline-body {
+    color: var(--white-dim);
+    font-size: 17px;
+  }
+
+  /* ─── AWARD CARDS ─── */
+  .award-card {
+    background: linear-gradient(135deg, #1A1500 0%, #0F1A0F 100%);
+    border: 1px solid var(--gold-dim);
+    padding: 40px;
+    margin: 32px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .award-card::before {
+    content: '🏆';
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 48px;
+    opacity: 0.15;
+  }
+
+  .award-year {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+
+  .award-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--gold-light);
+    margin-bottom: 4px;
+    line-height: 1.2;
+  }
+
+  .award-org {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    color: var(--white-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .award-desc {
+    color: var(--white-dim);
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.7;
+    border-left: 2px solid var(--gold-dim);
+    padding-left: 16px;
+  }
+
+  /* ─── SYSTEMS BUILT ─── */
+  .systems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 2px;
+    margin-top: 40px;
+  }
+
+  .system-card {
+    background: var(--navy-light);
+    padding: 36px 32px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, background 0.3s;
+  }
+
+  .system-card:hover {
+    border-color: var(--gold);
+    background: #1A2235;
+  }
+
+  .system-icon {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .system-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 4px;
+  }
+
+  .system-subtitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .system-desc {
+    color: var(--white-dim);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* ─── BIG QUOTE ─── */
+  .big-quote-section {
+    background: var(--navy-light);
+    text-align: center;
+    padding: 100px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .big-quote-section::before {
+    content: '❝';
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-size: 300px;
+    color: rgba(201, 168, 76, 0.05);
+    top: -40px;
+    left: 30px;
+    line-height: 1;
+    pointer-events: none;
+  }
+
+  .big-quote {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(28px, 5vw, 52px);
+    font-style: italic;
+    color: var(--white);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.3;
+  }
+
+  .big-quote em {
+    color: var(--gold);
+    font-style: normal;
+  }
+
+  .quote-attribution {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    color: var(--gold-dim);
+    letter-spacing: 3px;
+    margin-top: 32px;
+    text-transform: uppercase;
+  }
+
+  /* ─── SKILLS ─── */
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .skill-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    padding: 8px 16px;
+    border: 1px solid var(--steel);
+    color: var(--white-dim);
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    cursor: default;
+  }
+
+  .skill-tag:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+    background: rgba(201, 168, 76, 0.05);
+  }
+
+  .skill-tag.primary {
+    border-color: var(--gold-dim);
+    color: var(--gold);
+  }
+
+  /* ─── LEARNING ─── */
+  .learning-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .learning-item {
+    padding: 24px;
+    border: 1px solid var(--steel);
+    text-align: center;
+    transition: all 0.3s;
+  }
+
+  .learning-item:hover {
+    border-color: var(--gold);
+    background: rgba(201, 168, 76, 0.03);
+  }
+
+  .learning-icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  .learning-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    color: var(--gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .learning-desc {
+    font-size: 14px;
+    color: var(--white-dim);
+    font-style: italic;
+  }
+
+  /* ─── CTA ─── */
+  .cta-section {
+    background: linear-gradient(135deg, var(--navy-light) 0%, #0D1520 100%);
+    text-align: center;
+    padding: 100px 40px;
+    border-top: 1px solid var(--gold-dim);
+    position: relative;
+  }
+
+  .cta-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 100%, rgba(201, 168, 76, 0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .cta-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  .cta-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(36px, 7vw, 72px);
+    font-weight: 900;
+    line-height: 1.0;
+    color: var(--white);
+    margin-bottom: 24px;
+  }
+
+  .cta-headline em {
+    color: var(--gold);
+    font-style: italic;
+  }
+
+  .cta-sub {
+    font-size: 20px;
+    font-style: italic;
+    color: var(--white-dim);
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+
+  .cta-domains {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 32px auto;
+    max-width: 700px;
+  }
+
+  .cta-domain {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border: 1px solid var(--gold-dim);
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+
+  .cta-button {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 16px 48px;
+    background: var(--gold);
+    color: var(--navy);
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .cta-button:hover {
+    background: var(--gold-light);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(201, 168, 76, 0.3);
+  }
+
+  /* ─── FOOTER ─── */
+  .footer {
+    background: #05080F;
+    padding: 60px 40px;
+    text-align: center;
+    border-top: 1px solid #1A2235;
+  }
+
+  .footer-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+
+  .footer-tags {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--white-dim);
+    letter-spacing: 2px;
+    line-height: 2;
+  }
+
+  .footer-closing {
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: var(--white-dim);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-closing strong {
+    color: var(--white);
+  }
+
+  /* ─── DIVIDER ─── */
+  .gold-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+    margin: 0;
+  }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 600px) {
+    .systems-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    section { padding: 60px 20px; }
+    .award-card { padding: 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- HERO -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="hero">
+  <div class="hero-badge">Indian Air Force · 17 Years · 3 National Awards</div>
+  <h1 class="hero-name">
+    Raghavendra
+    <span>Still Learning. Still Building.</span>
+  </h1>
+  <p class="hero-tagline">Soldier. Administrator. Programmer. The man who served the sky and now builds what runs beneath it.</p>
+  <div class="hero-divider"></div>
+  <p class="hero-quote">
+    Most people <em>use</em> the system.<br>
+    I spent 17 years <em>living inside</em> it —<br>
+    then built the code that <em>runs it.</em>
+  </p>
+  <div class="scroll-hint">▼ &nbsp; SCROLL TO READ &nbsp; ▼</div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- STOP SCROLLING -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<section class="fade-in" style="text-align:center; padding: 80px 30px;">
+  <div class="section-label" style="justify-content:center; max-width:400px; margin: 0 auto 24px;">Before You Scroll Past</div>
+  <h2 style="font-size: clamp(26px, 5vw, 44px);">When was the last time you met someone who —</h2>
+  <div style="max-width: 700px; margin: 32px auto; text-align: left;">
+    <p class="large-text" style="margin-bottom: 16px; border-left: 2px solid var(--gold-dim); padding-left: 24px; font-style:normal;">
+      ✦ &nbsp;Cleared the Indian Air Force exam on his <strong>very first attempt</strong>
+    </p>
+    <p class="large-text" style="margin-bottom: 16px; border-left: 2px solid var(--gold-dim); padding-left: 24px; font-style:normal;">
+      ✦ &nbsp;Managed the careers of <strong>750 military officers</strong> — at command level — without a single error
+    </p>
+    <p class="large-text" style="margin-bottom: 16px; border-left: 2px solid var(--gold-dim); padding-left: 24px; font-style:normal;">
+      ✦ &nbsp;Earned <strong>two university degrees while serving full-time in uniform</strong> — zero study leave
+    </p>
+    <p class="large-text" style="margin-bottom: 16px; border-left: 2px solid var(--gold-dim); padding-left: 24px; font-style:normal;">
+      ✦ &nbsp;Built <strong>live automation systems</strong> now running across an entire national air force
+    </p>
+    <p class="large-text" style="border-left: 2px solid var(--gold); padding-left: 24px; font-style:normal;">
+      ✦ &nbsp;Received an <strong>EXCEPTIONAL rating — in every single performance review — for 17 consecutive years</strong>
+    </p>
+  </div>
+  <p style="font-family: 'Playfair Display', serif; font-size: 22px; font-style: italic; color: var(--white); margin-top: 32px;">Go ahead. Take your time. I'll be here.</p>
+</section>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- 1999 SPARK -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<div class="spark-section">
+  <section class="fade-in">
+    <div class="section-label">Chapter One — The Beginning</div>
+    <h2>1999. A Screen. A Cursor.<br>A Boy Who <em>Couldn't Look Away.</em></h2>
+    <p class="large-text" style="margin-bottom: 24px;">Picture this. A 10-year-old boy in Uttar Pradesh.</p>
+    <p>No internet. No smartphones. No coding culture. No one around him who understood any of it.</p>
+    <p>Just one glowing screen — and a cursor blinking like a heartbeat daring him to do something with his life.</p>
+    <p>He didn't know what a database was. He didn't know what code looked like.</p>
+    <p>But something deep in his chest <strong>ignited</strong> that day — a feeling so electric, so specific, so undeniably his — that twenty-five years of military service, four transfers across India, and three national awards couldn't extinguish it.</p>
+    <p style="font-family: 'Playfair Display', serif; font-size: 24px; font-style: italic; color: var(--white); border-left: 3px solid var(--gold); padding-left: 20px; margin-top: 32px;">That boy was me. And I never stopped chasing that feeling.</p>
+  </section>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- STATS -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<div class="stats-section">
+  <section class="fade-in" style="padding: 0 30px;">
+    <div class="section-label">The Scoreboard</div>
+    <h2>Numbers Don't <em>Lie.</em></h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">17+</div>
+        <div class="stat-label">Years of Service</div>
+        <div class="stat-sub">Indian Air Force</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">750+</div>
+        <div class="stat-label">Officers Managed</div>
+        <div class="stat-sub">Entire Command, Pan-India</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3</div>
+        <div class="stat-label">National IAF Awards</div>
+        <div class="stat-sub">Incl. AOC-in-C Commendation</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">★★★★★</div>
+        <div class="stat-label">Appraisal Rating</div>
+        <div class="stat-sub">EXCEPTIONAL — Every Year</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">2</div>
+        <div class="stat-label">Degrees In Uniform</div>
+        <div class="stat-sub">BCA + MCA. Zero study leave.</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">∞</div>
+        <div class="stat-label">Curiosity Level</div>
+        <div class="stat-sub">Same as 1999. Possibly higher.</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- TIMELINE -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<section class="fade-in">
+  <div class="section-label">Chapter Two — The Journey</div>
+  <h2>Four Cities. Three Promotions.<br>One <em>Unbreakable</em> Pattern.</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-location">Belgaum, Karnataka · 2007</div>
+      <div class="timeline-title">The Making of a Soldier</div>
+      <p class="timeline-body">Fresh out of training at one of India's most rigorous military academies. Age 18. Responsibility: real, immediate, unforgiving. The IAF doesn't ease you in — it hands you the weight and watches what you do with it.</p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-location">Udhampur · 2008</div>
+      <div class="timeline-title">300 Lives. Zero Margin For Error.</div>
+      <p class="timeline-body">HR Administrator for 300 IAF personnel. Appraisals that shaped careers. Payments that fed families. Transfer processing with national consequence. At 19 years old. First Promotion — September 2008. And quietly, at night — enrolled in a BCA degree. Because 1999 never lets you sleep easy without moving toward it.</p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-location">New Delhi, Air Headquarters · 2012</div>
+      <div class="timeline-title">The Nerve Centre of Indian Air Power</div>
+      <p class="timeline-body">Air Headquarters — the command centre of the entire Indian Air Force. Higher stakes. Senior leadership. Zero tolerance for error. Second Promotion — January 2012. BCA Completed — November 2012. In uniform. Full time. MCA enrolled immediately — 2013. Because finishing was never the goal. Growing always was.</p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-location">Nagpur · 2017</div>
+      <div class="timeline-title">The Room Where Decisions Are Made</div>
+      <p class="timeline-body">Personal Staff Officer to a highly designated senior commander of IAF's largest operational command — the largest Area of Responsibility in the country. Appraisal Manager for 750 officers. Every career report checked. Every policy verified. Every deadline met. This was not paperwork. This was the career architecture of India's air defence leadership. Third Promotion — October 2020. MCA Completed — November 2021. Eight years of studying between postings. Never quit. Never deferred. Never complained.</p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-location">New Delhi · December 2021 — Present</div>
+      <div class="timeline-title">Transfer Management. Then Code. Then Everything Changed.</div>
+      <p class="timeline-body">Pan-IAF Transfer Management — the system that places the right person at the right place at the right time across the entire Indian Air Force. Then February 2024 — handed the keyboard. And everything I had built toward since 1999 finally had a stage worthy of it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- AWARDS -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<section class="fade-in">
+  <div class="section-label">Chapter Three — The Honours</div>
+  <h2>Three Awards. Three Commanders.<br>One <em>Consistent Truth.</em></h2>
+  <p>Three different postings. Three different cities. Three senior IAF commanders who — independently, in different years — arrived at the same conclusion:</p>
+  <p style="font-family:'Playfair Display',serif; font-size:22px; font-style:italic; color:var(--white); margin-bottom: 40px;">"This person's contribution deserves to be formally recognised."</p>
+
+  <div class="award-card">
+    <div class="award-year">2009 · FIRST AWARD</div>
+    <div class="award-title">Aerospace Safety Award</div>
+    <div class="award-org">Indian Air Force</div>
+    <p class="award-desc">The Aerospace Safety Award is granted for demonstrably contributing to the safety and operational integrity of the Air Force ecosystem. Awarded in the very first years of service. At an age when most people are still finding their footing in their first job.</p>
+  </div>
+
+  <div class="award-card">
+    <div class="award-year">January 2021 · SECOND AWARD</div>
+    <div class="award-title">Commendation by<br>Air Officer Commanding-in-Chief</div>
+    <div class="award-org">Indian Air Force — Command Level · Highest Command Honour</div>
+    <p class="award-desc">The Commendation by the AOC-in-C — the supreme commander of an entire IAF Command — is not ceremonial. It is awarded for exceptional service that visibly elevated the operational effectiveness of the command. Out of thousands of personnel serving across the entire command, this commendation had one name on it.</p>
+  </div>
+
+  <div class="award-card">
+    <div class="award-year">2023 · THIRD AWARD</div>
+    <div class="award-title">Appreciation by<br>Air Officer Commanding</div>
+    <div class="award-org">Indian Air Force</div>
+    <p class="award-desc">A third formal recognition by a senior IAF commander — cementing what had by now become an unmistakable pattern: find the problem others have stopped noticing, understand it completely, and fix it permanently.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- BIG QUOTE -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<div class="big-quote-section fade-in">
+  <p class="big-quote">
+    "The work that once swallowed entire departments<br>
+    now runs silently —<br>
+    <em>while everyone sleeps.</em>"
+  </p>
+  <div class="quote-attribution">On the automation systems now live across IAF</div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- SYSTEMS BUILT -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<section class="fade-in">
+  <div class="section-label">Chapter Four — The Code</div>
+  <h2>What I Built.<br>What Is <em>Running Right Now.</em></h2>
+  <p>In February 2024, I didn't just switch job roles. I switched dimensions. From the person who lived inside the system — to the person rebuilding it. And what I built didn't sit in a repository waiting to be reviewed. It went live. It scaled. It's running across the Indian Air Force right now.</p>
+</section>
+<div class="systems-grid" style="max-width:900px; margin: 0 auto 80px; padding: 0 30px;">
+  <div class="system-card fade-in">
+    <div class="system-icon">⚙️</div>
+    <div class="system-title">Zero-Human Transfer Pipeline</div>
+    <div class="system-subtitle">Pan-IAF · Live in Production</div>
+    <p class="system-desc">End-to-end automation that identifies eligible personnel, opens quarterly choice windows on schedule, collects preferences, and closes every cycle — completely without human intervention. What once took weeks of back-and-forth now runs on a timer. Pan-India.</p>
+  </div>
+  <div class="system-card fade-in">
+    <div class="system-icon">🧠</div>
+    <div class="system-title">Institutional Memory Engine</div>
+    <div class="system-subtitle">Audit · History · Forever</div>
+    <p class="system-desc">Every personnel record change — tracked, timestamped, stored, and retrievable forever. Not just for today's officers — for the ones who haven't joined yet. Decades of institutional memory, automated and unlosable.</p>
+  </div>
+  <div class="system-card fade-in">
+    <div class="system-icon">📊</div>
+    <div class="system-title">Career Intelligence Layer</div>
+    <div class="system-subtitle">Structured · Queryable · AI-Ready</div>
+    <p class="system-desc">Work experience history of every individual across Pan-IAF, transformed from scattered manual records into a clean, structured, queryable intelligence database. Built for today's decisions. Designed for tomorrow's machine learning models.</p>
+  </div>
+  <div class="system-card fade-in">
+    <div class="system-icon">🔄</div>
+    <div class="system-title">Data Intelligence Pipeline</div>
+    <div class="system-subtitle">Extract → Clean → Transform → Deploy</div>
+    <p class="system-desc">Raw operational HR data — messy, legacy, inconsistent — converted into forward-looking business intelligence with future policy impact modelled into the architecture from the very first query.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- SUPERPOWER -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<div class="spark-section fade-in">
+  <section>
+    <div class="section-label">Chapter Five — The Superpower</div>
+    <h2>What You Cannot Buy,<br>Cannot Fake, <em>Cannot Fast-Track.</em></h2>
+    <p>The tech world has thousands of developers. The HR world has thousands of administrators.</p>
+    <p>The intersection? That is a very, very small room. And I have been standing in it — living in it — for 17 years.</p>
+    <p>I know what it feels like when a transfer order uproots a family.</p>
+    <p>I know what that policy says, what the exception looks like, and what the edge case does to a database.</p>
+    <p>I understand the human consequence and the technical architecture in the same breath.</p>
+    <p style="font-family:'Playfair Display',serif; font-size:24px; font-style:italic; color:var(--white); border-left:3px solid var(--gold); padding-left:20px; margin-top:32px;">That is not a skill on a resume. That is seventeen years compressed into a perspective most professionals spend their entire career trying to develop.</p>
+  </section>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- SKILLS -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<section class="fade-in">
+  <div class="section-label">Technical Arsenal</div>
+  <h2>The Tools. The <em>Craft.</em></h2>
+  <p style="margin-bottom: 8px; font-family:'Space Mono',monospace; font-size:12px; color:var(--gold); letter-spacing:2px;">CORE — PRODUCTION EXPERIENCE</p>
+  <div class="skills-container">
+    <span class="skill-tag primary">Oracle SQL</span>
+    <span class="skill-tag primary">PL/SQL</span>
+    <span class="skill-tag primary">Oracle Forms & Reports</span>
+    <span class="skill-tag primary">HR Systems Architecture</span>
+    <span class="skill-tag primary">Process Automation</span>
+    <span class="skill-tag primary">Microsoft Excel (Advanced)</span>
+    <span class="skill-tag primary">Policy Implementation</span>
+    <span class="skill-tag primary">Data Pipelines</span>
+  </div>
+  <p style="margin-top: 32px; margin-bottom: 8px; font-family:'Space Mono',monospace; font-size:12px; color:var(--white-dim); letter-spacing:2px;">BUILDING TOWARD — ACTIVE LEARNING</p>
+  <div class="skills-container">
+    <span class="skill-tag">Python</span>
+    <span class="skill-tag">HTML / CSS</span>
+    <span class="skill-tag">JavaScript</span>
+    <span class="skill-tag">Java</span>
+    <span class="skill-tag">Oracle APEX</span>
+    <span class="skill-tag">Android Development</span>
+    <span class="skill-tag">Full Stack</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- LEARNING -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<section class="fade-in">
+  <div class="section-label">Chapter Six — The Hunger</div>
+  <h2>The Learning That Has<br><em>No Off Switch.</em></h2>
+  <p>I don't learn things because a job description told me to. I learn them because I can see the next wave forming — and I refuse to be the person standing on the shore watching it pass.</p>
+  <div class="learning-grid">
+    <div class="learning-item">
+      <span class="learning-icon">🤖</span>
+      <div class="learning-title">Artificial Intelligence</div>
+      <div class="learning-desc">Not just using it. Understanding its architecture to build with it.</div>
+    </div>
+    <div class="learning-item">
+      <span class="learning-icon">🧬</span>
+      <div class="learning-title">Agentic AI</div>
+      <div class="learning-desc">AI that doesn't just answer. AI that acts.</div>
+    </div>
+    <div class="learning-item">
+      <span class="learning-icon">📈</span>
+      <div class="learning-title">Machine Learning</div>
+      <div class="learning-desc">The future of HR is prediction, not paperwork.</div>
+    </div>
+    <div class="learning-item">
+      <span class="learning-icon">🌐</span>
+      <div class="learning-title">Full Stack Dev</div>
+      <div class="learning-desc">Front to back. Client to server. The whole picture.</div>
+    </div>
+    <div class="learning-item">
+      <span class="learning-icon">📱</span>
+      <div class="learning-title">Android</div>
+      <div class="learning-desc">The best enterprise tools fit in a pocket.</div>
+    </div>
+    <div class="learning-item">
+      <span class="learning-icon">🎓</span>
+      <div class="learning-title">MBA Data Science</div>
+      <div class="learning-desc">Currently pursuing — LPU. Not for the certificate. For the knowledge.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- CTA -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<div class="cta-section fade-in">
+  <div class="cta-label">The Final Chapter — For Now</div>
+  <h2 class="cta-headline">You've Read This Far.<br>You Already Know <em>What You're Looking At.</em></h2>
+  <p class="cta-sub">You're not searching for someone to fill a seat. You're searching for someone who walks in and raises the ceiling.</p>
+
+  <div style="max-width:680px; margin: 0 auto 32px; text-align:left; background: var(--navy-light); padding: 32px 36px;">
+    <p style="margin-bottom:12px;"><strong>✅ 17 years of domain depth</strong> inside one of the world's most complex HR systems</p>
+    <p style="margin-bottom:12px;"><strong>✅ Live production systems</strong> already built and deployed at national scale</p>
+    <p style="margin-bottom:12px;"><strong>✅ Three national awards</strong> from senior IAF commanders for exceptional contribution</p>
+    <p style="margin-bottom:0;"><strong>✅ A learner's obsession</strong> that started in 1999 and has never, not once, gone quiet</p>
+  </div>
+
+  <p style="font-family:'Playfair Display',serif; font-size:20px; font-style:italic; color:var(--white-dim); margin-bottom: 24px;">If you're building something in —</p>
+  <div class="cta-domains">
+    <span class="cta-domain">HR Technology</span>
+    <span class="cta-domain">Data Science</span>
+    <span class="cta-domain">Enterprise Automation</span>
+    <span class="cta-domain">AI-Powered Systems</span>
+    <span class="cta-domain">Digital Transformation</span>
+    <span class="cta-domain">Full Stack Dev</span>
+  </div>
+
+  <p style="font-family:'Playfair Display',serif; font-size:28px; font-style:italic; color:var(--white); margin-top: 40px; margin-bottom: 8px;">Don't just connect.</p>
+  <p style="font-family:'Playfair Display',serif; font-size:28px; font-weight:900; color:var(--gold);">Start a conversation. Let's build something that matters.</p>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- FOOTER QUOTE -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="gold-divider"></div>
+<div class="footer fade-in">
+  <div style="font-family:'Playfair Display',serif; font-size: clamp(24px, 5vw, 48px); font-style:italic; color:var(--white); max-width:700px; margin: 0 auto 32px; line-height:1.3;">
+    "There is nothing in this whole world which man cannot do."
+  </div>
+  <p style="font-family:'Space Mono',monospace; font-size:12px; color:var(--gold-dim); letter-spacing:3px; margin-bottom: 40px;">I DIDN'T READ THAT ON A POSTER. I PROVED IT. FOR SEVENTEEN YEARS. IN UNIFORM.</p>
+  <div class="gold-divider" style="max-width:200px; margin: 0 auto 40px;"></div>
+  <div class="footer-name">Raghavendra</div>
+  <p class="footer-tags">
+    📍 New Delhi, India &nbsp;·&nbsp; 🎖️ IAF Veteran &nbsp;·&nbsp; 3 National Awards &nbsp;·&nbsp; EXCEPTIONAL Rated<br>
+    🎓 BCA · MCA · MBA Data Science (In Progress — LPU)<br>
+    💻 Oracle SQL · PL/SQL · Oracle Forms & Reports · HR Systems · Process Automation<br>
+    🌱 AI · ML · Agentic AI · Full Stack · Android · Oracle APEX<br>
+    🔍 Open To: HR Tech · Data Science · Enterprise Dev · Digital Transformation
+  </p>
+  <p class="footer-closing" style="margin-top:48px;">
+    The boy from UP who couldn't look away from a screen in 1999 is still at the screen.<br>
+    Only now — <strong>he doesn't just look at what's possible. He builds it.</strong>
+  </p>
+</div>
+
+<script>
+  // Intersection Observer for fade-in animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+  document.querySelectorAll('.fade-in, .timeline-item').forEach(el => observer.observe(el));
+
+  // Stagger timeline items
+  document.querySelectorAll('.timeline-item').forEach((item, i) => {
+    item.style.transitionDelay = `${i * 0.15}s`;
+  });
+</script>
+</body>
+</html>
