@@ -32,10 +32,11 @@ I saw my first computer in **1999** — and it ignited a curiosity that never st
 
 ```
 1989  ──●── Born in Uttar Pradesh, India 🇮🇳
+1999  ──●── First saw a computer
 2006  ──●── Cleared IAF Entrance Exam
 2007  ──●── Joined Indian Air Force · Trained at Belagavi, Karnataka
 2008  ──●── Posted to Udhampur · HR for 300 personnel · 1st Promotion
-2009  ──●── Aerospace Safety Award 🏅 · First saw a computer · MCA journey begins
+2009  ──●── Aerospace Safety Award 🏅  · MCA journey begins
 2012  ──●── New Delhi, Air HQ · 2nd Promotion · BCA Completed ✅
 2013  ──●── Enrolled in MCA (Masters of Computer Application)
 2017  ──●── Nagpur · Personal Staff Officer · Managed appraisals of 750+ officers
@@ -79,7 +80,7 @@ Now   ──●── Pursuing MBA (Data Science) · Learning AI, ML & Full Stac
 
 ## 🏗️ Projects That Made an Impact
 
-### 🔄 Pan-IAF Transfer Residence Automation
+### 🔄 For Pan-IAF ...Transfered place Residence end date updation Automation
 > **Stack:** Oracle SQL · PL/SQL · Oracle Forms & Reports
 
 Eliminated 100% manual intervention in updating **residence end-dates** for personnel across all of IAF. Built with full audit trails, history preservation, and zero paper dependency.
@@ -162,17 +163,17 @@ Developed a full-featured e-learning platform for academic submission — laying
 <div align="center">
 
 <!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=ffffff" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=ffffff" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=raghavendra-exp&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=ffffff" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raghavendra-exp&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=ffffff" height="165" />
 
 <br/>
 
 <!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b&currStreakLabel=38bdf8" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=raghavendra-exp&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b&currStreakLabel=38bdf8" />
 
 <!-- Visitor Counter -->
 <br/><br/>
-![Visitor Count](https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=38bdf8&style=for-the-badge)
+![Visitor Count](https://komarev.com/ghpvc/?username=raghavendra-exp&label=Profile%20Views&color=38bdf8&style=for-the-badge)
 
 <br/>
 
