@@ -10,6 +10,7 @@ const elements = {
     form: document.getElementById('chat-form'),
     input: document.getElementById('user-input'),
     sendBtn: document.getElementById('send-btn'),
+    micBtn: document.getElementById('mic-btn'),
     messagesContainer: document.getElementById('messages-container'),
     welcomeScreen: document.getElementById('welcome-screen'),
     typingIndicator: document.getElementById('typing-indicator'),
@@ -60,11 +61,115 @@ function parseMarkdown(text) {
 }
 
 // ==========================================================================
+// Voice & Speech Modules
+// ==========================================================================
+let recognition;
+let isListening = false;
+let synthesis = window.speechSynthesis;
+let currentVoice = null;
+
+function initVoice() {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (SpeechRecognition) {
+        recognition = new SpeechRecognition();
+        recognition.continuous = false;
+        recognition.interimResults = false;
+        
+        recognition.onstart = () => {
+            isListening = true;
+            elements.micBtn.classList.add('mic-active');
+            elements.input.placeholder = "Listening...";
+        };
+        
+        recognition.onerror = (event) => {
+            console.error("Speech recognition error:", event.error);
+            stopListening();
+        };
+        
+        recognition.onend = () => {
+            stopListening();
+        };
+        
+        recognition.onresult = (event) => {
+            let finalTranscript = '';
+            for (let i = event.resultIndex; i < event.results.length; ++i) {
+                if (event.results[i].isFinal) {
+                    finalTranscript += event.results[i][0].transcript;
+                }
+            }
+            if (finalTranscript) {
+                elements.input.value = (elements.input.value + " " + finalTranscript).trim();
+                elements.input.dispatchEvent(new Event('input'));
+                
+                if (elements.input.value.length > 0 && !elements.sendBtn.disabled) {
+                    elements.sendBtn.click(); // Safe way to trigger form submit
+                }
+            }
+        };
+        
+        if (synthesis) {
+            const setVoices = () => {
+                const voices = synthesis.getVoices();
+                currentVoice = voices.find(v => v.name.includes('Google UK English')) || 
+                               voices.find(v => v.name.includes('Zira')) || 
+                               voices.find(v => v.lang.startsWith('en-')) || voices[0];
+            };
+            synthesis.onvoiceschanged = setVoices;
+            setVoices();
+        }
+        
+        elements.micBtn.addEventListener('click', () => {
+            if (isListening) {
+                recognition.stop();
+            } else {
+                recognition.start();
+            }
+        });
+    } else {
+        if(elements.micBtn) elements.micBtn.style.display = 'none';
+    }
+}
+
+function stopListening() {
+    isListening = false;
+    if (elements.micBtn) elements.micBtn.classList.remove('mic-active');
+    elements.input.placeholder = "Message Nexus... (Shift+Enter for newline)";
+}
+
+function speakText(text) {
+    if (!synthesis) return;
+    synthesis.cancel();
+    
+    // Strip markdown formatting for speech
+    const plainText = text.replace(/[*_#`~]+/g, '').replace(/\[(.*?)\]\(.*?\)/g, '$1');
+    const utterance = new SpeechSynthesisUtterance(plainText);
+    if (currentVoice) utterance.voice = currentVoice;
+    
+    const toggleOrb = (isSpeaking) => {
+        const orb = document.querySelector('.glow-orb');
+        if (orb) {
+            isSpeaking ? orb.classList.add('orb-speaking') : orb.classList.remove('orb-speaking');
+        }
+    };
+    
+    // Attach to window to prevent Chrome garbage collection
+    window.currentUtterance = utterance;
+    
+    utterance.onstart = () => toggleOrb(true);
+    utterance.onend = () => { toggleOrb(false); window.currentUtterance = null; };
+    utterance.onerror = () => { toggleOrb(false); window.currentUtterance = null; };
+    
+    synthesis.speak(utterance);
+}
+
+// ==========================================================================
 // Initialization & Check
 // ==========================================================================
 async function init() {
     await checkConnection();
     await fetchModels();
+    
+    initVoice();
     
     // Auto-resize textarea
     elements.input.addEventListener('input', function() {
@@ -223,6 +328,9 @@ async function handleSend(msg) {
         
         // Finalize History
         chatHistory.push({ role: 'assistant', content: fullResponse });
+        
+        // Speak Response
+        speakText(fullResponse);
 
     } catch (error) {
         console.error("Error:", error);
