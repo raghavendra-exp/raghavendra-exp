@@ -136,7 +136,7 @@ Developed a full-featured e-learning platform for academic submission — laying
 
 **Formal Education**
 - 🎓 BCA — Sikkim Manipal University *(2012)*
-- 🎓 MCA — Sikkim Manipal University *(2021)*
+- 🎓 MCA — Sikkim Manipal University *(2017)*
 - 📖 MBA (Data Science) — Lovely Professional University *(In Progress)*
 
 **Webinars & Masterclasses**
