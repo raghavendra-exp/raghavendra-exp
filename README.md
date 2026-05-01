@@ -40,8 +40,8 @@ I saw my first computer in **1999** — and it ignited a curiosity that never st
 2012  ──●── New Delhi, Air HQ · 2nd Promotion · BCA Completed ✅
 2013  ──●── Enrolled in MCA (Masters of Computer Application)
 2017  ──●── Nagpur · Personal Staff Officer · Managed appraisals of 750+ officers · MCA Completed ✅
-2017  ──●── New Delhi
 2020  ──●── 3rd Promotion 🎖️
+2021  ──●── New Delhi 
 2021  ──●── Commendation by Chief of Command 🏅 · Transfer Management (Pan-IAF HRM Systems)
 2023  ──●── Commander's Appreciation Award 🏅
 2024  ──●── Switched to IAF Programmer Role · Automating Transfer Mgmt Business Models
