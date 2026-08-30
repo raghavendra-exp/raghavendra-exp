@@ -9,7 +9,7 @@
 <br/>
 
 <!-- Badges -->
-[![IAF Veteran](https://img.shields.io/badge/Indian%20Air%20Force-17%2B%20Years%20Service-1d4ed8?style=for-the-badge&logo=airplayaudio&logoColor=white)](https://indianairforce.nic.in/)
+[![IAF Veteran](https://img.shields.io/badge/Indian%20Air%20Force-19%2B%20Years%20Service-1d4ed8?style=for-the-badge&logo=airplayaudio&logoColor=white)](https://indianairforce.nic.in/)
 [![MCA](https://img.shields.io/badge/MCA-Sikkim%20Manipal%20University-7c3aed?style=for-the-badge)]()
 [![MBA DS](https://img.shields.io/badge/MBA-Data%20Science%20(In%20Progress)-0891b2?style=for-the-badge)]()
 [![Awards](https://img.shields.io/badge/🏆%203%20Commendations-Excellence%20in%20Service-d97706?style=for-the-badge)]()
@@ -27,7 +27,7 @@
 
 > *"Make the world a better place to live."*
 
-I'm **Raghavendra** — 17+ years in the **Indian Air Force**, where I ran HR and personnel operations for hundreds of officers under conditions that leave zero room for error. Somewhere along the way, spreadsheets and paper trails stopped being enough, so I taught myself **Oracle SQL, PL/SQL, and Forms & Reports** and started automating the very systems I used to run by hand.
+I'm **Raghavendra** — 19+ years in the **Indian Air Force**, where I ran HR and personnel operations for hundreds of officers under conditions that leave zero room for error. Somewhere along the way, spreadsheets and paper trails stopped being enough, so I taught myself **Oracle SQL, PL/SQL, and Forms & Reports** and started automating the very systems I used to run by hand.
 
 The result: production systems that eliminated manual processing for thousands of personnel records across the Pan-IAF network, still running today. Now I'm formalizing that transition with an **MBA in Data Science**, and building toward AI, ML, and full-stack development.
 
