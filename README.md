@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Raghavendra&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=From%20Defending%20Skies%20to%20Coding%20the%20Future&descAlignY=58&descSize=18&animation=fadeIn" />
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=IAF+Veteran+%7C+HR+Technologist+%7C+Data+Programmer;17%2B+Years+Turning+Discipline+Into+Systems;750%2B+Records+Managed+%E2%86%92+Automated+with+Zero+Manual+Touch;Oracle+SQL+%7C+PL%2FSQL+%7C+Python+%7C+MBA+(Data+Science);Building+Reliable+Systems+for+High-Stakes+Environments" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=IAF+Veteran+%7C+HR+Technologist+%7C+Data+Programmer;19%2B+Years+Turning+Discipline+Into+Systems;750%2B+Records+Managed+%E2%86%92+Automated+with+Zero+Manual+Touch;Oracle+SQL+%7C+PL%2FSQL+%7C+Python+%7C+MBA+(Data+Science);Building+Reliable+Systems+for+High-Stakes+Environments" alt="Typing SVG" /></a>
 
 <br/>
 
