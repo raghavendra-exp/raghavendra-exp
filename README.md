@@ -89,6 +89,46 @@ Now   ──●── Pursuing MBA (Data Science) · Deepening AI/ML & full-stac
 
 ## 🏗️ Projects & Impact
 
+### 🚀 BankExamV2 — #1 Free AI Exam Preparation & Interactive Mock Platform
+> **Live Platform:** [raghavendra-exp.github.io/bankexamv2](https://raghavendra-exp.github.io/bankexamv2/) · **Repository:** [bankexamv2](https://github.com/raghavendra-exp/bankexamv2)  
+> **Stack:** HTML5 · Vanilla JavaScript · CSS3 Architecture · Vite · Google Analytics 4 · AdSense
+
+India's most comprehensive 100% free educational platform built for aspirants of 80+ competitive examinations (Banking, UPSC, SSC, Railways, Defence, GATE, NEET, JEE, MBA/CAT).
+- **22 Exam Intelligence Engines:** Instant AI study prompt generators, PYQ pattern analyzers, and syllabus roadmaps.
+- **5-Option Interactive Mock Test Simulator:** Real-time countdown timer, instant evaluation scorecard, and accuracy breakdown.
+- **High-Yield Speed Math Formula Vault:** Formulas and mental math shortcuts for 45-second bank problem-solving.
+- **4-Phase Exam Roadmaps & Best Books:** Complete standard textbook recommendations and topper timetables.
+
+---
+
+### 📚 Open-Source Ready-Made Study Modules Ecosystem (13 Master Suites)
+> **Interactive Hub:** [BankExamV2 Ready-Made Study Modules](https://raghavendra-exp.github.io/bankexamv2/study-modules.html)
+
+A decoupled, high-performance network of 13 interactive digital textbooks, visual simulation laboratories, and practice workbenches seamlessly embedded into BankExamV2:
+
+#### 🏦 Banking & Financial Preparation Suites
+| Module | Repository | Core Capabilities |
+| :--- | :--- | :--- |
+| **Bank Quant Master** | [bank-quant](https://github.com/raghavendra-exp/bank-quant) | 32 Quant topics, mental math visualizers, topper dual solutions & DI masterclasses |
+| **Bank Reasoning Master** | [bank-reasoning-master](https://github.com/raghavendra-exp/bank-reasoning-master) | Floor/box puzzle visualizers, syllogism Venn diagram engines & coded inequalities |
+| **Banking English Master** | [english-master](https://github.com/raghavendra-exp/english-master) | 24 Grammar chapters, interactive Error Scanner, Cloze Test lab & RC speed trainer |
+| **Banking Awareness Master** | [banking-awareness-master](https://github.com/raghavendra-exp/banking-awareness-master) | 18 data modules: RBI monetary policy simulator, NPA lifecycle & payment flows |
+| **General Awareness Master** | [general-awareness-master](https://github.com/raghavendra-exp/general-awareness-master) | Monthly current affairs engine, Static GK vault, government schemes tracker & mocks |
+| **Daily Editorial Hub** | [daily-editorial-hub](https://github.com/raghavendra-exp/daily-editorial-hub) | Daily The Hindu & Express editorials, vocabulary flashcards & audio reader |
+| **Computer Awareness Master** | [computer-awareness-master](https://github.com/raghavendra-exp/computer-awareness-master) | Hardware architecture visualizers, cyber security, keyboard shortcuts & 600+ MCQs |
+
+#### 🏛️ UPSC Civil Services & Major Indian Exams Suites
+| Module | Repository | Core Capabilities |
+| :--- | :--- | :--- |
+| **UPSC GS-IV Ethics Master** | [gs4-master](https://github.com/raghavendra-exp/gs4-master) | Ethical reasoning lab, 50+ case study simulator, probity matrix & answer workbench |
+| **UPSC GS-III Economy & Tech** | [gs3-master](https://github.com/raghavendra-exp/gs3-master) | Economic survey analysis, agricultural reforms, emerging tech & internal security |
+| **UPSC GS-II Polity & Governance** | [gs2-master](https://github.com/raghavendra-exp/gs2-master) | Constitutional articles explorer, landmark judicial doctrines & statutory bodies |
+| **Complete History of India Atlas** | [history-of-india](https://github.com/raghavendra-exp/history-of-india) | Prehistory to Modern India atlas, Art & Culture museum & computed knowledge graph |
+| **Geography of India Atlas** | [geography-of-india](https://github.com/raghavendra-exp/geography-of-india) | Interactive river basins, monsoon climate simulator, soils, minerals & map drills |
+| **India & World: IR & Schemes** | [india-n-world](https://github.com/raghavendra-exp/india-n-world) | Bilateral relations matrix, strategic maritime choke points & central govt schemes |
+
+---
+
 ### 🔄 Pan-IAF Residence End-Date Automation
 > **Stack:** Oracle SQL · PL/SQL · Oracle Forms & Reports
 
