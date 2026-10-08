@@ -1,210 +1,10 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Raghavendra&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=From%20Defending%20Skies%20to%20Coding%20the%20Future&descAlignY=58&descSize=18&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:0f766e&height=200&section=header&text=Raghavendra%20Kumar&fontSize=68&fontColor=ffffff&fontAlignY=42" />
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=IAF+Veteran+%7C+HR+Technologist+%7C+Data+Programmer;19%2B+Years+Turning+Discipline+Into+Systems;750%2B+Records+Managed+%E2%86%92+Automated+with+Zero+Manual+Touch;Oracle+SQL+%7C+PL%2FSQL+%7C+Python+%7C+MBA+(Data+Science);Building+Reliable+Systems+for+High-Stakes+Environments" alt="Typing SVG" /></a>
+# Raghavendra Kumar
 
-<br/>
-
-<!-- Badges -->
-[![IAF Veteran](https://img.shields.io/badge/Indian%20Air%20Force-19%2B%20Years%20Service-1d4ed8?style=for-the-badge&logo=airplayaudio&logoColor=white)](https://indianairforce.nic.in/)
-[![MCA](https://img.shields.io/badge/MCA-Sikkim%20Manipal%20University-7c3aed?style=for-the-badge)]()
-[![MBA DS](https://img.shields.io/badge/MBA-Data%20Science%20(In%20Progress)-0891b2?style=for-the-badge)]()
-[![Awards](https://img.shields.io/badge/🏆%203%20Commendations-Excellence%20in%20Service-d97706?style=for-the-badge)]()
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raghavendra-kumar-5150573a)
-[![Email](https://img.shields.io/badge/Let's%20Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raghavendra921006l@gmail.com)
-
-</div>
-
----
-
-## 🪖 Why I Build What I Build
-
-> *"Make the world a better place to live."*
-
-I'm **Raghavendra** — 19+ years in the **Indian Air Force**, where I ran HR and personnel operations for hundreds of officers under conditions that leave zero room for error. Somewhere along the way, spreadsheets and paper trails stopped being enough, so I taught myself **Oracle SQL, PL/SQL, and Forms & Reports** and started automating the very systems I used to run by hand.
-
-The result: production systems that eliminated manual processing for thousands of personnel records across the Pan-IAF network, still running today. Now I'm formalizing that transition with an **MBA in Data Science**, and building toward AI, ML, and full-stack development.
-
-**What recruiters usually ask me:** *"How does a defense HR background translate to tech?"* — Fair question. Here's the honest answer: military operations run on the same things good engineering does — precision, audit trails, zero tolerance for silent failure, and the discipline to ship something that *actually* works the first time. I bring that mindset to code.
-
----
-
-## ⚡ Career Timeline
-
-```
-1989  ──●── Born in Uttar Pradesh, India 🇮🇳
-1999  ──●── First encounter with a computer — the spark that started it all
-2006  ──●── Cleared IAF Entrance Exam
-2007  ──●── Joined Indian Air Force · Trained at Belagavi, Karnataka
-2008  ──●── Udhampur · HR operations for 300 personnel · 1st Promotion
-2009  ──●── 🏅 Aerospace Safety Award · Began MCA journey
-2012  ──●── New Delhi, Air HQ · 2nd Promotion · BCA completed
-2013  ──●── Enrolled in MCA (Masters of Computer Applications)
-2017  ──●── Nagpur · Personal Staff Officer · Appraisal management for 750+ officers · MCA completed
-2020  ──●── 3rd Promotion 🎖️
-2021  ──●── New Delhi · 🏅 Commendation by Chief of Command · Built Pan-IAF Transfer Management systems
-2023  ──●── 🏅 Commander's Appreciation Award
-2024  ──●── Moved into IAF Programmer role · Automated Transfer Management business models end-to-end
-Now   ──●── Pursuing MBA (Data Science) · Deepening AI/ML & full-stack skills 🚀
-```
-
----
-
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-**🔥 Production-Proven**
-
-![Oracle SQL](https://img.shields.io/badge/Oracle%20SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![PL/SQL](https://img.shields.io/badge/PL%2FSQL-CC2927?style=for-the-badge&logo=oracle&logoColor=white)
-![Oracle Forms](https://img.shields.io/badge/Oracle%20Forms%20%26%20Reports-CC2927?style=for-the-badge&logo=oracle&logoColor=white)
-![Excel](https://img.shields.io/badge/Advanced%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-**🌱 Actively Building With**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Oracle Apex](https://img.shields.io/badge/Oracle%20Apex-CC2927?style=for-the-badge&logo=oracle&logoColor=white)
-
-**🔭 Investing In Next**
-
-![AI](https://img.shields.io/badge/Artificial%20Intelligence-8B5CF6?style=for-the-badge&logo=openai&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Full Stack](https://img.shields.io/badge/Full%20Stack%20Dev-0EA5E9?style=for-the-badge&logo=stackshare&logoColor=white)
-![Android](https://img.shields.io/badge/Android%20Dev-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-</div>
-
----
-
-## 🏗️ Projects & Impact
-
-### 🚀 BankExamV2 — #1 Free AI Exam Preparation & Interactive Mock Platform
-> **Live Platform:** [raghavendra-exp.github.io/bankexamv2](https://raghavendra-exp.github.io/bankexamv2/) · **Repository:** [bankexamv2](https://github.com/raghavendra-exp/bankexamv2)  
-> **Stack:** HTML5 · Vanilla JavaScript · CSS3 Architecture · Vite · Google Analytics 4 · AdSense
-
-India's most comprehensive 100% free educational platform built for aspirants of 80+ competitive examinations (Banking, UPSC, SSC, Railways, Defence, GATE, NEET, JEE, MBA/CAT).
-- **22 Exam Intelligence Engines:** Instant AI study prompt generators, PYQ pattern analyzers, and syllabus roadmaps.
-- **5-Option Interactive Mock Test Simulator:** Real-time countdown timer, instant evaluation scorecard, and accuracy breakdown.
-- **High-Yield Speed Math Formula Vault:** Formulas and mental math shortcuts for 45-second bank problem-solving.
-- **4-Phase Exam Roadmaps & Best Books:** Complete standard textbook recommendations and topper timetables.
-
----
-
-### 📚 Open-Source Ready-Made Study Modules Ecosystem (13 Master Suites)
-> **Interactive Hub:** [BankExamV2 Ready-Made Study Modules](https://raghavendra-exp.github.io/bankexamv2/study-modules.html)
-
-A decoupled, high-performance network of 13 interactive digital textbooks, visual simulation laboratories, and practice workbenches seamlessly embedded into BankExamV2:
-
-#### 🏦 Banking & Financial Preparation Suites
-| Module | Repository | Core Capabilities |
-| :--- | :--- | :--- |
-| **Bank Quant Master** | [bank-quant](https://github.com/raghavendra-exp/bank-quant) | 32 Quant topics, mental math visualizers, topper dual solutions & DI masterclasses |
-| **Bank Reasoning Master** | [bank-reasoning-master](https://github.com/raghavendra-exp/bank-reasoning-master) | Floor/box puzzle visualizers, syllogism Venn diagram engines & coded inequalities |
-| **Banking English Master** | [english-master](https://github.com/raghavendra-exp/english-master) | 24 Grammar chapters, interactive Error Scanner, Cloze Test lab & RC speed trainer |
-| **Banking Awareness Master** | [banking-awareness-master](https://github.com/raghavendra-exp/banking-awareness-master) | 18 data modules: RBI monetary policy simulator, NPA lifecycle & payment flows |
-| **General Awareness Master** | [general-awareness-master](https://github.com/raghavendra-exp/general-awareness-master) | Monthly current affairs engine, Static GK vault, government schemes tracker & mocks |
-| **Daily Editorial Hub** | [daily-editorial-hub](https://github.com/raghavendra-exp/daily-editorial-hub) | Daily The Hindu & Express editorials, vocabulary flashcards & audio reader |
-| **Computer Awareness Master** | [computer-awareness-master](https://github.com/raghavendra-exp/computer-awareness-master) | Hardware architecture visualizers, cyber security, keyboard shortcuts & 600+ MCQs |
-
-#### 🏛️ UPSC Civil Services & Major Indian Exams Suites
-| Module | Repository | Core Capabilities |
-| :--- | :--- | :--- |
-| **UPSC GS-IV Ethics Master** | [gs4-master](https://github.com/raghavendra-exp/gs4-master) | Ethical reasoning lab, 50+ case study simulator, probity matrix & answer workbench |
-| **UPSC GS-III Economy & Tech** | [gs3-master](https://github.com/raghavendra-exp/gs3-master) | Economic survey analysis, agricultural reforms, emerging tech & internal security |
-| **UPSC GS-II Polity & Governance** | [gs2-master](https://github.com/raghavendra-exp/gs2-master) | Constitutional articles explorer, landmark judicial doctrines & statutory bodies |
-| **Complete History of India Atlas** | [history-of-india](https://github.com/raghavendra-exp/history-of-india) | Prehistory to Modern India atlas, Art & Culture museum & computed knowledge graph |
-| **Geography of India Atlas** | [geography-of-india](https://github.com/raghavendra-exp/geography-of-india) | Interactive river basins, monsoon climate simulator, soils, minerals & map drills |
-| **India & World: IR & Schemes** | [india-n-world](https://github.com/raghavendra-exp/india-n-world) | Bilateral relations matrix, strategic maritime choke points & central govt schemes |
-
----
-
-### 🔄 Pan-IAF Residence End-Date Automation
-> **Stack:** Oracle SQL · PL/SQL · Oracle Forms & Reports
-
-Replaced a fully manual, paper-based process for updating personnel residence end-dates with a self-running system covering **every IAF station nationwide**.
-- **100% elimination** of manual intervention
-- Full audit trail and version history for every record — built for accountability, not just speed
-- Zero paper dependency, reducing processing errors to effectively zero
-
-### 📋 Automated Transfer Choice Collection System
-> **Stack:** Oracle SQL · PL/SQL · Oracle Forms & Reports
-
-A quarterly, **trigger-based** system that runs the entire transfer-preference cycle without human intervention.
-- Automatically identifies eligible personnel and opens/closes choice windows on schedule
-- Collects and stores preferences with no manual touchpoint from open to close
-- Now the standard process across the Pan-IAF HR network
-
-### 📂 Pan-IAF Work Experience History Vault
-> **Stack:** Oracle SQL · PL/SQL · Oracle Forms & Reports
-
-A longitudinal service-record repository built to make years of scattered personnel history **queryable, clean, and analytics-ready**.
-- Consolidated fragmented historical records into one structured system
-- Built as the data foundation for future workforce analytics and policy decisions
-
-### 🎓 Online Learning Platform (MCA Capstone)
-> **Stack:** PHP · JavaScript · XAMPP
-
-A full-featured e-learning platform built for academic submission and delivery — my first hands-on step into full-stack development, and the project that confirmed where I wanted to take my career next.
-
----
-
-## 🏆 Decorations & Commendations
-
-| Year | Recognition |
-|------|-------------|
-| 2009 | 🥇 **Aerospace Safety Award** — Indian Air Force |
-| 2021 | 🥇 **Commendation by Chief of Command** |
-| 2023 | 🥇 **Commander's Appreciation Award** |
-
-**Overall IAF Appraisal Rating:** `EXCEPTIONAL` ⭐
-
----
-
-## 🧠 What I Bring to a Team
-
-```
-🔍  Root-cause thinking — I dig into the "why" before I touch a solution
-📊  Data reusability & business-modeling instinct, sharpened over 17+ years
-🛡️  A testing-first mindset shaped by zero-tolerance-for-failure environments
-⚙️  Automation-first — if I do it twice, I'm scripting it the third time
-🗓️  Policy-aware engineering — every system I build is compliance-ready by design
-🤝  Led and appraised 750+ personnel — I know how to manage people, not just systems
-```
-
----
-
-## 📚 Knowledge Ecosystem
-
-**Formal Education**
-- 🎓 BCA — Sikkim Manipal University *(2012)*
-- 🎓 MCA — Sikkim Manipal University *(2017)*
-- 📖 MBA (Data Science) — Lovely Professional University *(In Progress)*
-
-**Continuous Learning**
-- 🤖 AI Tools Workshop — *Be10x*
-- 🦙 LLaMA Architecture Deep Dive — *Scaler Masterclass*
-- 📈 Real-Time Stock Market System Design — *Scaler Masterclass*
-- 🧬 Generative AI Mastermind — *Outskill*
-- 💻 30-Day Full Stack Bootcamp — *Navi Pvt Ltd*
-
----
-
-## 🌐 Let's Connect
-
-<div align="center">
-
-**Open to opportunities in Data Programming, HR Tech, and Systems Automation.**
+<a href="https://github.com/raghavendra-exp"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=850&lines=Indian+Air+Force+veteran;Full-stack+builder;Education-tech+product+thinker;Automation-first+problem+solver" /></a>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raghavendra-kumar-5150573a)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/raghavendra-exp)
@@ -214,23 +14,153 @@ A full-featured e-learning platform built for academic submission and delivery �
 
 ---
 
+## About me
+
+I am a technology builder with a background in Indian Air Force operations, enterprise systems, and large-scale HR process design. My work sits at the intersection of automation, data, and education technology.
+
+Over the years, I have moved from high-trust operational systems to product-oriented development, building digital study ecosystems, mock-test platforms, and practical utilities that serve real learning outcomes.
+
+My GitHub profile shows a consistent pattern:
+
+- Product thinking applied to education and competitive exam preparation
+- Strong use of JavaScript, TypeScript, HTML/CSS, and Python
+- Reusable learning modules and structured content systems
+- Real-world automation with Oracle SQL, PL/SQL, Forms, and Reports
+- A bias toward building useful systems that scale beyond a single use case
+
+---
+
+## GitHub profile analysis
+
+This profile is not a typical single-topic codebase; it is a portfolio of problem-solving across several domains:
+
+### 1. Education-tech and exam preparation
+The strongest theme in the repos is large-scale learning platforms for Indian competitive exams, including banking, SSC, UPSC, defence, railways, NEET, JEE, MBA, and law. The work emphasizes:
+
+- structured topic-based modules
+- interactive practice and test-taking flows
+- AI-style study prompts and exam intelligence
+- quick-access learning resources and revision aids
+
+### 2. Automation and operations mindset
+A significant part of the profile reflects systems thinking from military/HR operations. This is visible in the Oracle-based automation work and in the emphasis on process elimination, auditability, and implementation discipline.
+
+### 3. Full-stack prototyping and public utility projects
+The portfolio includes full-stack projects, static web apps, Android app work, Python utilities, and public-facing educational experiences. There is a strong preference for simple, effective, accessible interfaces rather than over-engineered stacks.
+
+### 4. Business/product orientation
+The most interesting repos are not just code dumps; they are product ecosystems built around real user needs: learning journeys, mock tests, revision systems, and domain-specific content engines.
+
+---
+
+## Featured projects
+
+### PrepSelf
+A broad AI-assisted self-study ecosystem focused on 80+ Indian competitive exams.
+
+- Repository: [prepself](https://github.com/raghavendra-exp/prepself)
+- Focus: exam prep journeys, structured learning flows, reusable study modules
+
+### BankExamV2
+A high-impact education platform designed for high-volume competitive exam preparation.
+
+- Repository: [bankexamv2-android](https://github.com/raghavendra-exp/bankexamv2-android) / linked public platform assets
+- Focus: mock tests, study modules, exam intelligence, learning workflows
+
+### Study module ecosystem
+A set of comprehensive subject-specific repositories covering exam domains such as banking, polity, history, geography, English, general awareness, and more.
+
+- [bank-quant](https://github.com/raghavendra-exp/bank-quant)
+- [bank-reasoning-master](https://github.com/raghavendra-exp/bank-reasoning-master)
+- [english-master](https://github.com/raghavendra-exp/english-master)
+- [general-awareness-master](https://github.com/raghavendra-exp/general-awareness-master)
+- [history-of-india](https://github.com/raghavendra-exp/history-of-india)
+- [geography-of-india](https://github.com/raghavendra-exp/geography-of-india)
+- [gs2-master](https://github.com/raghavendra-exp/gs2-master)
+- [gs3-master](https://github.com/raghavendra-exp/gs3-master)
+- [gs4-master](https://github.com/raghavendra-exp/gs4-master)
+- [ssc-master-india](https://github.com/raghavendra-exp/ssc-master-india)
+- [rrb-master-india](https://github.com/raghavendra-exp/rrb-master-india)
+
+### Public utility and experimentation
+
+- [markitdown](https://github.com/raghavendra-exp/markitdown) — Python-based document conversion utility
+- [bharattv](https://github.com/raghavendra-exp/bharattv) — IPTV/live streaming app project
+- [HTML](https://github.com/raghavendra-exp/HTML) — web-focused learning and asset experimentation
+
+---
+
+## Tech stack
+
+### Core
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### Backend / systems
+![Oracle SQL](https://img.shields.io/badge/Oracle%20SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![PL/SQL](https://img.shields.io/badge/PL%2FSQL-CC2927?style=for-the-badge&logo=oracle&logoColor=white)
+![Oracle Forms](https://img.shields.io/badge/Oracle%20Forms-CC2927?style=for-the-badge&logo=oracle&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+
+### Current interests
+![AI](https://img.shields.io/badge/AI-8B5CF6?style=for-the-badge&logo=openai&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/ML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Full Stack](https://img.shields.io/badge/Full%20Stack-0EA5E9?style=for-the-badge&logo=stackshare&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+
+---
+
+## Career and education
+
+- 19+ years of service in the Indian Air Force
+- Built HR and personnel operations systems for large-scale operational workflows
+- Strong experience in structured data management, process automation, and operational accountability
+- MCA from Sikkim Manipal University
+- MBA in Data Science in progress
+
+This background gives the projects a practical edge: they are designed for real users, real constraints, and real execution under pressure.
+
+---
+
+## What I am building now
+
+I am focusing on:
+
+- AI-powered exam preparation experiences
+- high-utility learning modules for competitive exams
+- scalable, content-rich frontends for educational products
+- automation and data-driven tooling for everyday operational needs
+
+The overall direction is clear: build systems that make knowledge more actionable, more accessible, and more personalized.
+
+---
+
+## Connect
+
+Open to collaboration, product thinking, education-tech work, automation systems, and meaningful technical build partnerships.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raghavendra-kumar-5150573a)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/raghavendra-exp)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raghavendra921006l@gmail.com)
+
+---
+
 <div align="center">
 
-<!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=raghavendra-exp&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=ffffff" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raghavendra-exp&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=ffffff" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=raghavendra-exp&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=ffffff" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raghavendra-exp&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=ffffff" />
 
 <br/>
 
-<!-- Streak Stats -->
 <img src="https://github-readme-streak-stats.herokuapp.com?user=raghavendra-exp&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b&currStreakLabel=38bdf8" />
 
-<!-- Visitor Counter -->
 <br/><br/>
+
 ![Visitor Count](https://komarev.com/ghpvc/?username=raghavendra-exp&label=Profile%20Views&color=38bdf8&style=for-the-badge)
-
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&text=Let's%20Build%20Something%20Exceptional%20Together&fontSize=18&fontColor=38bdf8&fontAlignY=65&animation=fadeIn" />
 
 </div>
